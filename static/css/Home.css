@@ -1,0 +1,82 @@
+body, html {
+    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tacos4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+#mainTitle {
+    color: whitesmoke;
+}
+
+#bodyContainer {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#bodyContainer h3 {
+    font-family: 'Mogra', cursive;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+
+#bodyContainer form {
+    margin-top: 50px;
+}
+
+#bodyContainer form input {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #DC3545;
+
+}
+
+#bodyContainer form .btn {
+    margin: auto 20px;
+}
+
+#bodyContainer h4 {
+    margin: 40px auto;
+    color: white;
+    font-weight: bolder;
+}
+
+#bodyContainer a {
+    text-decoration: none;
+}
+
+#bodyContaine a .btn .fas {
+    margin-left: 10px;
+}
+
+#NavBar {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+#navBar ul {
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+#navBar ul a li {
+    text-align: center;
+    /* padding: auto; */
+    background-color: #DC3545;
+    display: inline-block;
+    list-style: none;
+    color: whitesmoke;
+    /* margin: auto; */
+    font-size: 15px;
+    border: red solid 2px;
+    height: 50px;
+    width: 25%;
+}
