@@ -1,4 +1,4 @@
-body, html {
+#homeBody {
     background-color: black;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tacos4.jpg");
     background-repeat: no-repeat;
@@ -6,6 +6,8 @@ body, html {
     background-position: center;
     min-height: 500px;
     height: 100vh;
+    padding: 0;
+    margin: 0;
 }
 
 #mainTitle {
@@ -13,14 +15,13 @@ body, html {
 }
 
 #bodyContainer {
-    margin-top: 50px;
     width: 100%;
     text-align: center;
+    padding-top: 20px;
 }
 
 #bodyContainer h3 {
     font-family: 'Mogra', cursive;
-    margin-top: 20px;
     color: whitesmoke;
 }
 
@@ -83,5 +84,5 @@ body, html {
 }
 
 #navBar ul li:hover {
-    color: rgba(252, 99, 99, 0.5);
+    color: rgba(116, 2, 2, 0.5);
 }
